@@ -10,9 +10,10 @@ import ladyinblack from "../assets/ladyinblack.jpeg";
 import ladyonbench from "../assets/ladyonbench.jpeg";
 import maninblack from "../assets/maninblack.jpeg";
 import outdoorshot from "../assets/outdoorshot.jpeg";
-import sippincocalored from "../assets/sippincocalored.jpeg";
+import sippincocalored from "../assets/sippincocacolared.jpeg";
 import standingblacklady from "../assets/standingblacklady.jpeg";
 import vestandwhitetrousers from "../assets/vestandwhitetrousers.jpeg";
+import severaldots from "../assets/severaldots.png";
 
 export default {
   beautifulinwhite,
@@ -30,4 +31,5 @@ export default {
   sippincocalored,
   standingblacklady,
   vestandwhitetrousers,
+  severaldots,
 };

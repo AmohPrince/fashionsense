@@ -12,8 +12,8 @@ const Firstpage = () => {
     <div>
       <Navbar />
       <Welcome />
-      <Fashionsince />
       <Collection />
+      <Fashionsince />
       <Footer />
     </div>
   );

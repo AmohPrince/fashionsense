@@ -1,0 +1,142 @@
+.app__bg-primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logocontainer {
+  width: 15vw;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: black;
+  line-height: 72px;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  width: 45vw;
+  justify-content: space-evenly;
+  font-weight: 600;
+  size: 24px;
+  line-height: 36px;
+}
+.menu > li {
+  cursor: pointer;
+}
+.navbuttons {
+  width: 27vw;
+  display: flex;
+  justify-content: space-around;
+}
+.leftbtn {
+  border: 1px solid #fae3b6;
+  height: 40px;
+  width: 121px;
+  border-radius: 5px;
+  box-shadow: inset 4px 4px 4px #f2d09b;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #fae3b6;
+  margin-right: 10px;
+  cursor: pointer;
+}
+button > p {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.rytbtn {
+  border: 0;
+  height: 40px;
+  width: 121px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(
+    77.49deg,
+    #fdbb57 0%,
+    rgba(251, 251, 251, 0) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.app__navbar-smallscreen {
+  display: none;
+}
+
+.cupidonarrow {
+  top: 50px;
+  left: 20px;
+}
+.app__navbar-smallscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #f8ddb2;
+  opacity: 0.9;
+  flex-direction: column;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__bg-primary {
+    justify-content: space-between;
+  }
+  .middletile {
+    display: none;
+  }
+  .menu_smallscreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .menu_smallscreen > li {
+    list-style: none;
+    line-height: 72px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    cursor: pointer;
+  }
+
+  .logo {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .navbuttons {
+    display: none;
+  }
+  .navbuttons_smallscreen {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+  .cupidonarrow {
+    margin-right: 20px;
+  }
+  .daggerose {
+    color: #fdbb57;
+  }
+  .leftbtn {
+    margin-left: 18vw;
+  }
+  .rytbtn {
+    background: linear-gradient(
+      to bottom,
+      #fdbb57 0%,
+      rgba(251, 251, 251, 0) 100%
+    );
+  }
+}
