@@ -1,0 +1,17 @@
+.Footer__right-icons {
+  display: flex;
+  margin-top: 70px;
+  max-width: 100px;
+  justify-content: space-evenly;
+}
+.Footer__right-icons > .active {
+  background-color: black;
+}
+.Footer__right-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+}

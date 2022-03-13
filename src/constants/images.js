@@ -14,6 +14,12 @@ import sippincocalored from "../assets/sippincocacolared.jpeg";
 import standingblacklady from "../assets/standingblacklady.jpeg";
 import vestandwhitetrousers from "../assets/vestandwhitetrousers.jpeg";
 import severaldots from "../assets/severaldots.png";
+import greydots from "../assets/Greydots.png";
+import fulldress from "../assets/Fulldress.jpeg";
+import sportyblack from "../assets/Sportyblack.jpeg";
+import suitup from "../assets/suitup.jpeg";
+import tradition from "../assets/tradition.jpeg";
+import fivestar from "../assets/FiveStar.png";
 
 export default {
   beautifulinwhite,
@@ -32,4 +38,10 @@ export default {
   standingblacklady,
   vestandwhitetrousers,
   severaldots,
+  greydots,
+  fulldress,
+  sportyblack,
+  suitup,
+  tradition,
+  fivestar,
 };
