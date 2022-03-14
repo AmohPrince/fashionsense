@@ -23,17 +23,6 @@ const Footer = () => {
       </div>
       <div className="Footer__right">
         <Card />
-        <div className="Footer__right-icons">
-          <a
-            href=""
-            className="Footer__right-icon active"
-            // onClick={handleScroll}
-          ></a>
-          <a href="" className="Footer__right-icon"></a>
-          <a href="" className="Footer__right-icon"></a>
-          <a href="" className="Footer__right-icon"></a>
-          <a href="" className="Footer__right-icon"></a>
-        </div>
       </div>
     </div>
   );

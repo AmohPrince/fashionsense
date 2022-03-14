@@ -4,8 +4,20 @@
   width: 800px;
   overflow-x: scroll;
 }
+.Card__container-overall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Card__container::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .Card__container-overall {
+    width: 729px;
+  }
 }
 @media screen and (max-width: 650px) {
   .Card__container {
@@ -14,5 +26,12 @@
     overflow-y: scroll;
     width: 400px;
     height: 615px;
+    margin-left: -70px;
+  }
+  .Card__container-overall {
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
   }
 }

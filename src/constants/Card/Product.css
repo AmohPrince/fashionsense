@@ -36,3 +36,9 @@
   font-size: 22px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 1150px) {
+  /* .Product__container {
+    min-width: 250px;
+  } */
+}
