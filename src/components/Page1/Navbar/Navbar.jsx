@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { GiCupidonArrow, GiDaggerRose } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -21,10 +22,14 @@ const Navbar = () => {
       <div className="navbuttons">
         <div>
           <button className="leftbtn p__poppins">
-            <p>LogIn</p>
+            <Link to="/page2" style={{ textDecoration: "none" }}>
+              <p className="p__link">Page 2</p>
+            </Link>
           </button>
           <button className="rytbtn p__poppins">
-            <p>Sign Up</p>
+            <Link to="/signup" style={{ textDecoration: "none" }}>
+              <p className="p__link">Sign Up</p>
+            </Link>
           </button>
         </div>
       </div>

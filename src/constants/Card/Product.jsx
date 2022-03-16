@@ -2,10 +2,10 @@ import React from "react";
 import "./Product.css";
 import images from "../images";
 
-const Product = ({ product }) => {
+const Product = ({ product, productClass, changeBorderRadius }) => {
   return (
-    <div className="Product__container">
-      <div className="Products__image">
+    <div className={productClass}>
+      <div className={changeBorderRadius}>
         <img src={product.imgUrl} alt="Product image" />
       </div>
       <div className="Products__container-footer">

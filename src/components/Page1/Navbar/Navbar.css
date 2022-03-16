@@ -45,10 +45,11 @@
   margin-right: 10px;
   cursor: pointer;
 }
-button > p {
+.p__link {
   color: black;
   font-size: 15px;
   font-weight: 600;
+  text-decoration: none;
 }
 .rytbtn {
   border: 0;

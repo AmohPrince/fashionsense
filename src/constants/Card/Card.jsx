@@ -4,15 +4,20 @@ import { useState, useEffect } from "react";
 import Cardicons from "./Cardicons/Cardicons";
 import "./Card.css";
 
-const Card = () => {
-  const [cardState, setCardState] = useState("firstpage");
+const Card = ({
+  footerCardState,
+  topBarCardState,
+  productClass,
+  changeBorderRadius,
+}) => {
+  console.log(footerCardState + " is the footer cardstate");
+  console.log(topBarCardState + " is the topbar cardstate");
   const firstPageProducts = productArray.slice(0, 4);
+  const secondPageProducts = productArray.slice(4, productArray.length);
+  console.log(secondPageProducts);
+  console.log(productArray);
   const [shownImages, setshownImages] = useState([]);
 
-  const handleTargetLinks = () => {
-    const targetLinks = document.getElementsByClassName("Footer__right-icon");
-    targetLinks.classList.remove("active");
-  };
   useEffect(() => {
     const shownImages = firstPageProducts.slice(0, 2);
     setshownImages(shownImages);
@@ -40,14 +45,19 @@ const Card = () => {
     setshownImages(shownImages);
   };
 
-  if (cardState === "firstpage") {
+  if (footerCardState === "firstpage") {
     return (
       <div className="Card__container-overall">
         <div className="Card__container">
           {shownImages.map((shownImages) => {
             return (
               <>
-                <Product product={shownImages} key={shownImages.productName} />
+                <Product
+                  product={shownImages}
+                  key={shownImages.productName}
+                  productClass={productClass}
+                  changeBorderRadius={changeBorderRadius}
+                />
               </>
             );
           })}
@@ -62,11 +72,20 @@ const Card = () => {
         />
       </div>
     );
-  } else {
+  }
+
+  if (topBarCardState === "secondpage") {
     return (
-      <div>
-        {productArray.map((product) => {
-          return <Product product={product} key={product.productName} />;
+      <div className="Card__container-page2">
+        {secondPageProducts.map((secondPageProducts) => {
+          return (
+            <Product
+              product={secondPageProducts}
+              key={secondPageProducts.productName}
+              productClass={productClass}
+              changeBorderRadius={changeBorderRadius}
+            />
+          );
         })}
       </div>
     );

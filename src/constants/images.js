@@ -20,6 +20,8 @@ import sportyblack from "../assets/Sportyblack.jpeg";
 import suitup from "../assets/suitup.jpeg";
 import tradition from "../assets/tradition.jpeg";
 import fivestar from "../assets/FiveStar.png";
+import cutetummy from "../assets/cutetummy.jpeg";
+import brownremovedbg from "../assets/Brownremovedbg.png";
 
 export default {
   beautifulinwhite,
@@ -44,4 +46,6 @@ export default {
   suitup,
   tradition,
   fivestar,
+  cutetummy,
+  brownremovedbg,
 };

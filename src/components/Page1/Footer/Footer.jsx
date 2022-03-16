@@ -1,8 +1,16 @@
-import React, { useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Footer.css";
 import Card from "../../../constants/Card/Card";
 
 const Footer = () => {
+  const [footerCardState, setFooterCardState] = useState("firstpage");
+  const [productClass, setProductClass] = useState("Product__container");
+  const [changeBorderRadius, setChangeBorderRadius] =
+    useState("Products__image");
+  // useEffect(() => {
+  //   setFooterCardState("firstpage");
+  // }, []);
+
   return (
     <div className="Footer__container">
       <div className="Footer__left">
@@ -22,7 +30,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="Footer__right">
-        <Card />
+        <Card
+          footerCardState={footerCardState}
+          productClass={productClass}
+          changeBorderRadius={changeBorderRadius}
+        />
       </div>
     </div>
   );

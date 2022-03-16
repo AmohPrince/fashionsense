@@ -9,6 +9,11 @@
   flex-direction: column;
   align-items: center;
 }
+.Card__container-page2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .Card__container::-webkit-scrollbar {
   display: none;
