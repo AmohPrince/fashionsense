@@ -11,9 +11,9 @@ const Secondpage = () => {
   return (
     <div>
       <Topbar />
-      <Productscatalogue />
       <Shopnow />
       <Reviews />
+      <Productscatalogue />
       <Pagetwofooter />
     </div>
   );

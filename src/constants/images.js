@@ -22,6 +22,10 @@ import tradition from "../assets/tradition.jpeg";
 import fivestar from "../assets/FiveStar.png";
 import cutetummy from "../assets/cutetummy.jpeg";
 import brownremovedbg from "../assets/Brownremovedbg.png";
+import businessman from "../assets/businessman.jpeg";
+import manoutdoor from "../assets/manoutdoor.jpeg";
+import oldman from "../assets/oldman.jpeg";
+import yellowwithaphone from "../assets/yellowwithaphone.jpeg";
 
 export default {
   beautifulinwhite,
@@ -48,4 +52,8 @@ export default {
   fivestar,
   cutetummy,
   brownremovedbg,
+  yellowwithaphone,
+  oldman,
+  manoutdoor,
+  businessman,
 };

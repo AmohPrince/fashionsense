@@ -1,0 +1,32 @@
+.Reviews__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.Reviews__title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.Reviews__text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+}
+/* .Reviews__boxes {
+  border: 1px solid red;
+  position: relative;
+} */
+@media screen and (max-width: 1150px) {
+  .Reviews__title {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Reviews__title {
+    font-size: 2rem;
+  }
+  .Reviews__text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+.Cardboxes__container {
+  display: flex;
+  width: 1300px;
+  overflow-x: scroll;
+}
+.Cardboxes__container::-webkit-scrollbar {
+  display: none;
+}
+.Review__container {
+  display: flex;
+  background: #feecc8;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  height: 364px;
+  margin: 40px;
+}
+.Review__heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.Review__text {
+  width: 45ch;
+}
+.Review__image-imd {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Review__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.Review__relation {
+  margin-top: -30px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.Review__btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Reviews__buttons > .active {
+  background-color: black;
+}
+
+@media screen and (max-width: 1150px) {
+  .Cardboxes__container {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Cardboxes__container {
+    width: 350px;
+  }
+}
