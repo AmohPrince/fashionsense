@@ -32,6 +32,9 @@ import london from "../assets/london.jpeg";
 import orangesmoke from "../assets/orangesmoke.jpeg";
 import twoinblack from "../assets/twoinblack.jpeg";
 import twoinyellow from "../assets/twoinyellow.jpeg";
+import google from "../assets/google.png";
+import facebook from "../assets/facebook.png";
+import cold from "../assets/cold.jpeg";
 
 export default {
   beautifulinwhite,
@@ -68,4 +71,7 @@ export default {
   orangesmoke,
   twoinblack,
   twoinyellow,
+  google,
+  facebook,
+  cold,
 };
