@@ -63,4 +63,11 @@
   .pgtwofooter__images-img {
     width: 300px;
   }
+  .pgtwofooter__links {
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+  .pgtwofooter__cp {
+    font-weight: 400;
+  }
 }
