@@ -13,7 +13,6 @@ const Secondpage = () => {
       <Topbar />
       <Shopnow />
       <Reviews />
-      <Productscatalogue />
       <Pagetwofooter />
     </div>
   );

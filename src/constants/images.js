@@ -26,6 +26,12 @@ import businessman from "../assets/businessman.jpeg";
 import manoutdoor from "../assets/manoutdoor.jpeg";
 import oldman from "../assets/oldman.jpeg";
 import yellowwithaphone from "../assets/yellowwithaphone.jpeg";
+import indian from "../assets/indian.jpeg";
+import kids from "../assets/kids.jpg";
+import london from "../assets/london.jpeg";
+import orangesmoke from "../assets/orangesmoke.jpeg";
+import twoinblack from "../assets/twoinblack.jpeg";
+import twoinyellow from "../assets/twoinyellow.jpeg";
 
 export default {
   beautifulinwhite,
@@ -56,4 +62,10 @@ export default {
   oldman,
   manoutdoor,
   businessman,
+  indian,
+  kids,
+  london,
+  orangesmoke,
+  twoinblack,
+  twoinyellow,
 };
