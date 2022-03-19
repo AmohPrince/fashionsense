@@ -1,0 +1,164 @@
+.extra__div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: var(--gradient);
+  background-size: 400%;
+  animation: bg-background 20s infinite alternate;
+}
+
+@keyframes bg-background {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.Signup__container {
+  width: 70%;
+  height: 95vh;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.flex__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Signup__left {
+  flex-direction: column;
+  border-radius: 20px 0px 0px 20px;
+  min-width: 60%;
+  height: 95vh;
+  justify-content: space-between;
+  padding: 10px;
+  background: white;
+}
+.Signup__left-get {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.Signup__left-alr {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #868686;
+}
+.Signup__left-st {
+  color: #f59c15;
+  cursor: pointer;
+}
+.Signup__left-ortab {
+  width: 80%;
+  justify-content: space-around;
+}
+.Signup__left-ortab div {
+  width: 45%;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+.Signup__left-ortab p {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.Signup__options {
+  width: 90%;
+  justify-content: space-around;
+}
+.Signup__option {
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  cursor: pointer;
+}
+.Signup__option img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.Signup__options > :first-child {
+  background: #f4f4f4;
+}
+.Signup__options > :nth-child(2) {
+  background: #4946e6;
+  color: #ffffff;
+}
+.Signup-form {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.Signup-form label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #868686;
+  margin-bottom: 10px;
+}
+.Signup-form input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+}
+#inputcheckbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.Signup__left button {
+  background-color: #fae3b6;
+  width: 50%;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+  border-radius: 20px;
+}
+.Signup__right {
+  min-width: 40%;
+  height: 95vh;
+  position: relative;
+}
+.Signup__right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+  object-fit: cover;
+}
+.Signup__right p {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+@media screen and (max-width: 1150px) {
+}
+@media screen and (max-width: 650px) {
+  .Signup__container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .Signup__left {
+    height: 100vh;
+  }
+  .Signup__right {
+    display: none;
+  }
+  .Signup__left button {
+    width: 70%;
+  }
+  .Signup__options {
+    width: 105%;
+  }
+}
