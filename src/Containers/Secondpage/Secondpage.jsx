@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Pagetwofooter,
-  Productscatalogue,
   Reviews,
   Shopnow,
   Topbar,

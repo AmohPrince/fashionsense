@@ -11,7 +11,7 @@
 }
 .Topbar__bottom {
   display: flex;
-  width: 800px;
+  width: 50%;
   justify-content: space-evenly;
   margin-top: 30px;
   margin-bottom: 100px;
@@ -36,7 +36,7 @@
     font-size: 40px;
   }
   .Topbar__bottom {
-    width: 700px;
+    width: 80%;
   }
   .Topbar__bottom-subheadings {
     font-size: 20px;
@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 650px) {
   .Topbar__bottom {
-    width: 400px;
+    width: 95%;
   }
   .Topbar__bottom-subheadings {
     font-size: 12px;
