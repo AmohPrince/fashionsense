@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fashionsense/static/css/main.11993ea6.css",
-    "main.js": "/fashionsense/static/js/main.d5a6b9e4.js",
+    "main.js": "/fashionsense/static/js/main.2f4129fd.js",
     "static/media/orangesmoke.jpeg": "/fashionsense/static/media/orangesmoke.5655a86984e324ab6800.jpeg",
     "static/media/fulljeans.jpeg": "/fashionsense/static/media/fulljeans.06504479140362fca384.jpeg",
     "static/media/Brownremovedbg.png": "/fashionsense/static/media/Brownremovedbg.b10e0b9e2d73b19963e7.png",
@@ -37,10 +37,10 @@
     "static/media/london.jpeg": "/fashionsense/static/media/london.2bd3afef0d8803de4093.jpeg",
     "index.html": "/fashionsense/index.html",
     "main.11993ea6.css.map": "/fashionsense/static/css/main.11993ea6.css.map",
-    "main.d5a6b9e4.js.map": "/fashionsense/static/js/main.d5a6b9e4.js.map"
+    "main.2f4129fd.js.map": "/fashionsense/static/js/main.2f4129fd.js.map"
   },
   "entrypoints": [
     "static/css/main.11993ea6.css",
-    "static/js/main.d5a6b9e4.js"
+    "static/js/main.2f4129fd.js"
   ]
 }
