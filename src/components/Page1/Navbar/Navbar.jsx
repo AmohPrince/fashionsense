@@ -63,10 +63,14 @@ const Navbar = () => {
             <div className="navbuttons_smallscreen">
               <div>
                 <button className="leftbtn p__poppins">
-                  <p>LogIn</p>
+                  <Link to="/page2" style={{ textDecoration: "none" }}>
+                    <p className="p__link">Page 2</p>
+                  </Link>
                 </button>
                 <button className="rytbtn p__poppins">
-                  <p>Sign Up</p>
+                  <Link to="/signup" style={{ textDecoration: "none" }}>
+                    <p className="p__link">Sign Up</p>
+                  </Link>
                 </button>
               </div>
             </div>
