@@ -4,23 +4,23 @@ import images from "../../../constants/images";
 
 const Fashionsince = () => {
   return (
-    <div className="Fashionsince__container">
+    <div className="Fashionsince__container flex__container">
       <div className="Fashionsince__rightsection">
-        <div className="Fashionsince__image">
+        <div>
           <img
             src={images.ilovetheblue}
             alt="Grey dots"
             className="Fashionsince__image-img"
           />
         </div>
-        <div className="Fashionsince__greydots">
+        <div>
           <img
             src={images.greydots}
             alt="grey dots"
             className="Fashionsince__greydots-1"
           />
         </div>
-        <div className="Fashionsince__greydots2">
+        <div>
           <img
             src={images.greydots}
             alt="Grey dots"
@@ -28,7 +28,7 @@ const Fashionsince = () => {
           />
         </div>
       </div>
-      <div className="Fashionsince__leftsection">
+      <div className="Fashionsince__leftsection flex__container">
         <div className="Fashionsince__lefttab">
           <p className="p__frankruhl Fashionsince__lefttab-heading">
             Best Fashion Since 2010
@@ -39,7 +39,7 @@ const Fashionsince = () => {
             elementum non viverra.
           </p>
         </div>
-        <div className="Fashionsince__goldtab">
+        <div className="Fashionsince__goldtab flex__container">
           <div className="Fashionsince__goldtab-section">
             <p className="p__podkova">2010</p>
             <p className="p__poppins p__spec">Founded</p>

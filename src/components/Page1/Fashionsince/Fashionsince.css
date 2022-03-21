@@ -1,66 +1,58 @@
 .Fashionsince__container {
+  padding: 3%;
+}
+.Fashionsince__rightsection {
   width: 100%;
   position: relative;
-  display: flex;
-  padding: 100px 70px;
 }
 .Fashionsince__image-img {
-  width: 600px;
-  height: 686px;
-  object-fit: cover;
+  width: 90%;
   border-radius: 150px 0px 0px 0px;
+
+  max-height: 680px;
+  object-fit: cover;
 }
 .Fashionsince__greydots-1 {
-  width: 170px;
-  height: 164px;
-  object-fit: cover;
   position: absolute;
-  left: 600px;
-  top: -30px;
+  right: 0;
+  top: -60px;
+  width: 20%;
+}
+.Fashionsince__greydots-2 {
+  position: absolute;
+  left: 30%;
+  bottom: -170px;
   z-index: -1;
+  width: 20%;
 }
 .Fashionsince__leftsection {
-  width: 50%;
-  display: flex;
+  width: 100%;
   flex-direction: column;
-  margin-left: 100px;
-  padding-top: 100px;
+  position: relative;
 }
 .Fashionsince__lefttab-heading {
+  font-size: 4rem;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 83px;
-  color: black;
-  margin-bottom: 50px;
 }
 .Fashionsince__lefttab-text {
+  font-size: 1.5rem;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-  font-style: normal;
-  margin-bottom: 100px;
-}
-.Fashionsince__greydots2 {
-  position: absolute;
-  margin-left: 100px;
-  margin-top: 150px;
-  z-index: -1;
+  line-height: 2.1rem;
+  width: 30ch;
 }
 .Fashionsince__goldtab {
   position: absolute;
-  padding: auto;
-  width: 700px;
-  height: 280px;
-  display: flex;
-  align-items: center;
+
+  bottom: -300px;
+  margin-left: -25%;
+  padding: 7%;
+  width: 110%;
   justify-content: space-around;
   background: linear-gradient(
     83.43deg,
     #cd8922 0.44%,
     rgba(255, 184, 79, 0.45) 95.53%
   );
-  margin-left: -150px;
-  top: 700px;
   border-radius: 20px;
   z-index: -1;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
@@ -68,66 +60,66 @@
 }
 .p__podkova {
   font-weight: 700;
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 4rem;
 }
 .p__spec {
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-weight: 500px;
+  font-size: 1.6rem;
 }
-.Fashionsince__goldtab .f__line {
+.f__line {
   width: 1px;
   height: 100px;
-  background-color: black;
+  background: #000000;
+  margin: 5%;
 }
-@media screen and (max-width: 2000px) {
-}
+
 @media screen and (max-width: 1150px) {
+  .p__podkova {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .p__spec {
+    font-weight: 300;
+    font-size: 1rem;
+  }
   .Fashionsince__goldtab {
-    top: 850px;
-    margin-left: -400px;
-    margin-top: 20px;
-    width: 600px;
-    height: 200px;
-  }
-  .Fashionsince__leftsection {
-    margin-left: 50px;
-  }
-  .Fashionsince__greydots2 {
-    margin-left: 700px;
-    margin-top: -50px;
-    z-index: -1;
-  }
-  .Fashionsince__image-img {
-    width: auto;
-    height: 500px;
-  }
-  .Fashionsince__greydots2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 650px) {
-  .Fashionsince__container {
-    padding: 10px;
-  }
-  .Fashionsince__image-img {
-    width: auto;
-    height: 500px;
+    bottom: -160px;
+    width: 100%;
+    margin-left: 0;
+    padding: 1%;
     border-radius: 10px;
   }
-  .Fashionsince__goldtab {
-    display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .Fashionsince__container {
+    flex-direction: column;
   }
-  .Fashionsince__greydots2 {
-    display: none;
+  .Fashionsince__lefttab-heading {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .Fashionsince__lefttab-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    width: 30ch;
+  }
+  .Fashionsince__greydots-2 {
+    position: absolute;
+    left: 75%;
+    z-index: -1;
+    width: 30%;
+  }
+  .Fashionsince__goldtab {
+    bottom: -110px;
+    width: 100%;
+    margin-left: 0;
+    padding: 1%;
+    border-radius: 10px;
   }
 
-  .Fashionsince__greydots-1 {
-    display: none;
-  }
-  .Fashionsince__leftsection {
-    margin-left: -320px;
-    margin-top: 200px;
+  .f__line {
+    height: 50px;
   }
 }

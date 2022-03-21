@@ -25,9 +25,7 @@ const Footer = () => {
           lacus amet, scelerisque neque mauris odio risus nec. Nisl, parturient
           at morbi morbi sit arcu. At integer maecenas tortor non lectus.
         </div>
-        <div>
-          <button className="app__btn Footer__left-btn">SEE MORE</button>
-        </div>
+        <button className="app__btn Footer__left-btn">SEE MORE</button>
       </div>
       <div className="Footer__right">
         <Card

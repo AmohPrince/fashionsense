@@ -1,13 +1,11 @@
 .Card__container {
   display: flex;
-  margin-left: 20px;
-  width: 800px;
-  overflow-x: scroll;
+  justify-content: center;
 }
 .Card__container-overall {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
 .Card__container-page2 {
   display: flex;
@@ -19,22 +17,11 @@
   display: none;
 }
 
-@media screen and (max-width: 1150px) {
-  .Card__container-overall {
-    width: 729px;
-  }
-}
 @media screen and (max-width: 650px) {
   .Card__container {
     flex-direction: column;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 400px;
-    height: 615px;
-    margin-left: -70px;
   }
   .Card__container-overall {
-    width: 400px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;

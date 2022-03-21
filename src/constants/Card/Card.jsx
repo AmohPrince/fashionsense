@@ -10,8 +10,6 @@ const Card = ({
   productClass,
   changeBorderRadius,
 }) => {
-  console.log(footerCardState + " is the footer cardstate");
-  console.log(topBarCardState + " is the topbar cardstate");
   const firstPageProducts = productArray.slice(0, 4);
   const secondPageProducts = productArray.slice(4, productArray.length);
   console.log(secondPageProducts);

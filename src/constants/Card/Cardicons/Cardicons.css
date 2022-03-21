@@ -1,7 +1,8 @@
 .Footer__right-icons {
   display: flex;
-  margin-top: 70px;
-  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  width: 19%;
   justify-content: space-between;
 }
 .Footer__right-icons > .active {
@@ -9,7 +10,7 @@
 }
 .Footer__right-icon {
   display: inline-block;
-  width: 60px;
+  width: 50%;
   height: 10px;
   background-color: white;
   border-radius: 10px;

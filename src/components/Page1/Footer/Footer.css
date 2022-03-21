@@ -1,7 +1,8 @@
 .Footer__container {
   margin-top: 103px;
+  padding-top: 20px;
   display: flex;
-  padding: 40px 0px 50px 80px;
+  justify-content: center;
   background: linear-gradient(
     180deg,
     #cfa485 68.72%,
@@ -9,12 +10,13 @@
   );
 }
 .Footer__left {
-  min-width: 30%;
+  width: 40%;
+  padding-left: 5%;
 }
 
 .Footer__left-header {
   color: white;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   font-style: normal;
   line-height: 83px;
@@ -29,17 +31,22 @@
 }
 .Footer__left-btn {
   margin-top: 60px;
-  width: 319px;
+  width: 60%;
   height: 75px;
   font-size: 24px;
   color: white;
   font-weight: 600;
 }
+.Footer__right {
+  width: 55%;
+}
 
 @media screen and (max-width: 1150px) {
+  .Footer__left {
+    width: 100%;
+  }
   .Footer__container {
     flex-direction: column;
-    padding: 20px 0px 25px 40px;
     align-items: center;
   }
   .Footer__right {

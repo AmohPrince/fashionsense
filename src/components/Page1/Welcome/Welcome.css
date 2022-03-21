@@ -1,6 +1,6 @@
 .Welcome__container {
   position: relative;
-  width: 100%;
+
   max-height: 1115px;
   background: linear-gradient(
     180deg,
@@ -17,7 +17,7 @@
 }
 .Welcome__leftcontainer__bigtext {
   line-height: 96px;
-  font-size: 63px;
+  font-size: 3.9rem;
   font-weight: 600;
   color: black;
   padding-bottom: 30px;
@@ -31,9 +31,8 @@
   padding-bottom: 60px;
 }
 .Welcome__leftcontainer__button {
-  width: 319px;
+  width: 60%;
   height: 86px;
-  /* z-index: 10; */
 }
 .Welcome__leftcontainer__button-text {
   font-size: 24px;
@@ -43,23 +42,22 @@
 
 .Welcome__leftcontainer__patch {
   position: absolute;
-  width: 381px;
+  width: 25%;
   height: 460px;
   z-index: -1;
   top: 300px;
   background: linear-gradient(360deg, #ffd18d 0%, rgba(255, 250, 243, 0) 100%);
   border-radius: 0px 0px 70px 70px;
-  margin-left: -100px;
+  margin-left: -7%;
 }
 .Welcome__rightcontainer {
   width: 50%;
   position: relative;
 }
 .Welcome__rightcontainer__woman-img {
-  width: 535px;
+  width: 75%;
   height: 643px;
   object-fit: cover;
-  margin-left: 70px;
   border-radius: 0px 0px 0px 195px;
 }
 .Welcome__rightcontainer__dottedpatch {
@@ -67,7 +65,8 @@
   top: 400px;
   z-index: -1;
   border-radius: 0px 0px 10px 10px;
-  width: 100px;
+
+  width: 15%;
   object-fit: cover;
 }
 
@@ -76,19 +75,17 @@
 
 @media screen and (max-width: 1150px) {
   .Welcome__leftcontainer {
-    width: 60%;
+    width: 55%;
     padding-left: 40px;
   }
   .Welcome__rightcontainer {
-    width: 40%;
+    width: 45%;
     display: flex;
-    margin-left: -50px;
+    /* margin-left: -50px; */
   }
   .Welcome__rightcontainer__woman-img {
-    width: 100%;
-    height: auto;
     border-radius: 0px 0px 0px 70px;
-    margin-left: 50px;
+    height: 500px;
   }
   .Welcome__rightcontainer__dottedpatch {
     display: none;
@@ -106,8 +103,6 @@
   .Welcome__rightcontainer {
     margin-top: 100px;
     width: 100%;
-    display: flex;
-    margin-left: -50px;
   }
 
   .Welcome__rightcontainer__woman-img {
