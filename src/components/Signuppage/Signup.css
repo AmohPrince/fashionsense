@@ -161,4 +161,14 @@
   .Signup__options {
     width: 105%;
   }
+  .Signup__left-alr {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .Signup-form label {
+    font-size: 1rem;
+  }
+  .Signup__left button {
+    margin-bottom: 10px;
+  }
 }
